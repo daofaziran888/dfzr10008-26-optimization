@@ -13,6 +13,7 @@ const Sandbox = () => import('@/views/sandbox/index.vue')
 const Pipeline = () => import('@/views/pipeline/index.vue')
 const Filter = () => import('@/views/filter/index.vue')
 const Scene = () => import('@/views/scene/index.vue')
+const AnalysisEntry = () => import('@/views/analysis/index.vue')
 const Realtime = () => import('@/views/realtime/index.vue')
 const Crossref = () => import('@/views/crossref/index.vue')
 const Feedback = () => import('@/views/feedback/index.vue')
@@ -34,6 +35,7 @@ const router = createRouter({
     { path: '/pipeline', name: 'pipeline', component: Pipeline },
     { path: '/filter', name: 'filter', component: Filter },
     { path: '/scene', name: 'scene', component: Scene },
+    { path: '/analysis-entry', name: 'analysis-entry', component: AnalysisEntry },
     { path: '/realtime', name: 'realtime', component: Realtime },
     { path: '/crossref', name: 'crossref', component: Crossref },
     { path: '/feedback', name: 'feedback', component: Feedback },
